@@ -5,10 +5,10 @@ import Footer from './components/Footer/Footer';
 
 const App = () => {
   return (
-    <>
+    < >
       <Header></Header>
-      <Outlet></Outlet>
-      <Footer></Footer>
+        <Outlet></Outlet>
+        <Footer></Footer>
     </>
   );
 };
