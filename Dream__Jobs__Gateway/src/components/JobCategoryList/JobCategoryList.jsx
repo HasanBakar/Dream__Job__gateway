@@ -1,11 +1,14 @@
 import React from 'react';
 
-const JobCategoryList = () => {
+
+const JobCategoryList = ({job}) => {
+    const {jobs_available,category_name,category_logo} = job;
     return (
-        <>
-           <h1 className="text-center font-extrabold text-4xl" >Job Category List</h1> 
-           <p className="text-center py-3" >Explore thousands of job opportunities with all the information you need. Its your future.</p>
-        </>
+        <div className="bg-gray-100 p-7 shadow-lg border" >
+          <img src={ category_logo } alt="" />
+          <h1 className="text-xl font-bold" >{category_name}</h1>
+          <h3>{jobs_available} Jobs Available</h3>
+        </div>
     );
 };
 

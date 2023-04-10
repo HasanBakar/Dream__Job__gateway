@@ -1,7 +1,15 @@
 import React from 'react';
+import { useContext } from 'react';
+import { CATEGORY } from '../../App';
+
 import JobCategoryList from './../JobCategoryList/JobCategoryList';
 
-const Home = () => {
+
+const Home = () => {    
+
+    const jobs = useContext(CATEGORY)
+    
+
     return (
         <>
         <div className="hero min-h-screen bg-base-200">
@@ -16,8 +24,19 @@ const Home = () => {
                 </div>
             </div>                                                      
         </div>
+
         <div className="mt-20 pb-2" >
-            <JobCategoryList></JobCategoryList>
+             <h1 className="text-center font-extrabold text-4xl" >Job Category List</h1> 
+           <p className="text-center py-3" >Explore thousands of job opportunities with all the information you need. Its your future.</p>
+            
+        </div>
+        <div className="grid md:grid-cols-4 gap-20 mb-10" >
+            {
+                jobs.map(job =><JobCategoryList
+                key={job.id}
+                job = {job}
+                ></JobCategoryList> )
+            }
         </div>
         
         </>
