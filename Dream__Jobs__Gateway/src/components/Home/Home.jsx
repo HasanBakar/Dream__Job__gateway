@@ -13,7 +13,7 @@ const Home = () => {
      featured job data start loading
      */
     const data = useLoaderData()
-    const feaJobs = data.featuredJobs
+    const feaJobs = data.featuredJobs;
     // console.log(feaJobs)
 
     /**
@@ -34,7 +34,7 @@ const Home = () => {
                 <div className="w-1/2" >
                     <h1 className="text-5xl font-bold">One Step <br />
                      Closer To Your <br />
-                     <span> Dream Job</span></h1>
+                     <span className="animate-text bg-gradient-to-r from-teal-500 via-purple-500 to-orange-500 bg-clip-text text-transparent text-5xl font-black" > Dream Job</span></h1>
                     <p className="py-6">Explore thousands of job opportunities with all the information you need. Its your future. Come find it. Manage all your job application from start to finish.</p>
                     <button className="btn btn-primary">Get Started</button>
                 </div>
@@ -73,7 +73,7 @@ const Home = () => {
                     }
                     </div>
                     <div className="mb-8" >
-                        <p className="text-center" > <button onClick={() =>showAllHandle(!Sjobs) }  className ="btn bg-blue-400">Show all jobs</button> </p>
+                        <p className="text-center" > <button onClick={() =>showAllHandle(!Sjobs) }  className ="btn bg-blue-400">See all jobs</button> </p>
                     </div>
 
                 </div>

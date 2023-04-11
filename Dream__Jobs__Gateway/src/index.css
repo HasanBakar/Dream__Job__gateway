@@ -5,3 +5,7 @@
 .custom__view__displaying {
     @apply container mx-auto;
 }
+
+.pie__chart__color {
+    @apply text-5xl font-extrabold text-transparent bg-clip-text bg-gradient-to-br from-pink-400 to-red-600;
+}
