@@ -1,7 +1,11 @@
 import React from 'react';
+import { addToDb } from "../Utilities/Utilities.js";
+
 
 const DetailsSideCard = ({singleJob}) => {
-    const {contact_information,location,job_title,salary} = singleJob;
+    
+    const {contact_information,location,job_title,salary,id} = singleJob;
+    
     return (
         <div>
             <div className="bg-gray-50 pl-3 py-5 shadow-md border" >
@@ -30,7 +34,7 @@ const DetailsSideCard = ({singleJob}) => {
                 </div>
             </div>
             <div className="mt-8" >
-                <button className="btn w-full Now_aplly_btn" >Apply Now</button>
+                <button className="btn w-full Now_aplly_btn" onClick={()=>addToDb(id) } >Apply Now</button>
             </div>
         </div>
     );

@@ -73,7 +73,7 @@ const Home = () => {
                     }
                     </div>
                     <div className="mb-8" >
-                        <p className="text-center" > <button onClick={() =>showAllHandle(!Sjobs) }  className ="btn bg-blue-400">See all jobs</button> </p>
+                        <p className="text-center" > <button onClick={() =>showAllHandle(!Sjobs) }  className ="btn bg-blue-400">See all jobs</button></p>
                     </div>
 
                 </div>

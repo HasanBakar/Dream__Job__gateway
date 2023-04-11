@@ -1,7 +1,7 @@
 {
     "featuredJobs": [
         {
-            "id": 1,
+            "id": "1jo2b3sde4tails",
             "company_logo": "https://i.ibb.co/RcW5qpc/google-1-1-1.png",
             "job_title": "Technical Database Engineer",
             "company_name": "Google LLC",
@@ -19,7 +19,7 @@
             }
         },
         {
-            "id": 2,
+            "id": "2jo2b3sde4tails",
             "company_logo": "https://i.ibb.co/NsJN9w1/tesla-9-1.png",
             "job_title": "Data Scientist",
             "company_name": "Tesla",
@@ -37,7 +37,7 @@
             }
         },
         {
-            "id": 3,
+            "id": "3jo2b3sde4tails",
             "company_logo": "https://i.ibb.co/Y2cCPFj/Group-10021.png",
             "job_title": "UX/UI Designer",
             "company_name": "Airbnb",
@@ -55,7 +55,7 @@
             }
         },
         {
-            "id": 4,
+            "id": "4jo2b3sde4tails",
             "company_logo": "https://i.ibb.co/M8GSrZT/netflix-4-1.png",
             "job_title": "Marketing Manager",
             "company_name": "NetFlix",
@@ -73,7 +73,7 @@
             }
         },
         {
-            "id": 5,
+            "id": "5jo2b3sde4tails",
             "company_logo": "https://i.ibb.co/0trnqNL/facebook-logo.png",
             "job_title": "Product Manager",
             "company_name": "Facebook",
@@ -91,7 +91,7 @@
             }
         },
         {
-            "id": 6,
+            "id": "6jo2b3sde4tails",
             "company_logo": "https://i.ibb.co/c1qCvMb/Creative-Agency-logo.png",
             "job_title": "Graphic Designer",
             "company_name": "Creative Agency",
@@ -109,7 +109,7 @@
             }
         },
         {
-            "id": 7,
+            "id": "7jo2b3sde4tails",
             "company_logo": "https://i.ibb.co/jM1vdCr/HR-Solutions-Inc-Logo.png",
             "job_title": "Human Resources Specialist",
             "company_name": "HR Solutions Inc.",
@@ -127,7 +127,7 @@
             }
         },
         {
-            "id": 8,
+            "id": "8jo2b3sde4tails",
             "company_logo": "https://i.ibb.co/jTBxsYn/Accountant-logo.png",
             "job_title": "Accountant",
             "company_name": "Financial Services Ltd.",

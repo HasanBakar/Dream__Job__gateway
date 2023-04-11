@@ -53,7 +53,7 @@ const Statistics = () => {
     
     return (
        <div className="pie__chart__color text-center" >
-        <h1>My all Assignment Marks in a pie chart</h1>
+        <h1 className="my-3">My all Assignment Marks in a pie chart</h1>
         <div className="flex justify-center items-center" >
             <PieChart width={400} height= {400}>
             <Pie
