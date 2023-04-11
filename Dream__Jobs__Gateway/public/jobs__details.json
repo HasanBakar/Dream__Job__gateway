@@ -1,10 +1,10 @@
 {
-    "jobs": [
+    "featuredJobs": [
         {
             "id": 1,
-            "company_logo": "https://example.com/company1-logo.png",
-            "job_title": "Software Engineer",
-            "company_name": "ABC Tech",
+            "company_logo": "https://i.ibb.co/RcW5qpc/google-1-1-1.png",
+            "job_title": "Technical Database Engineer",
+            "company_name": "Google LLC",
             "remote_or_onsite": "Remote",
             "location": "United States",
             "fulltime_or_parttime": "Full-time",
@@ -20,9 +20,9 @@
         },
         {
             "id": 2,
-            "company_logo": "https://example.com/company2-logo.png",
+            "company_logo": "https://i.ibb.co/NsJN9w1/tesla-9-1.png",
             "job_title": "Data Scientist",
-            "company_name": "XYZ Analytics",
+            "company_name": "Tesla",
             "remote_or_onsite": "Onsite",
             "location": "New York, NY",
             "fulltime_or_parttime": "Full-time",
@@ -38,9 +38,9 @@
         },
         {
             "id": 3,
-            "company_logo": "https://example.com/company3-logo.png",
+            "company_logo": "https://i.ibb.co/Y2cCPFj/Group-10021.png",
             "job_title": "UX/UI Designer",
-            "company_name": "Design Co.",
+            "company_name": "Airbnb",
             "remote_or_onsite": "Remote",
             "location": "Canada",
             "fulltime_or_parttime": "Part-time",
@@ -56,9 +56,9 @@
         },
         {
             "id": 4,
-            "company_logo": "https://example.com/company4-logo.png",
+            "company_logo": "https://i.ibb.co/M8GSrZT/netflix-4-1.png",
             "job_title": "Marketing Manager",
-            "company_name": "Global Marketing Agency",
+            "company_name": "NetFlix",
             "remote_or_onsite": "Onsite",
             "location": "London, UK",
             "fulltime_or_parttime": "Full-time",
@@ -74,9 +74,9 @@
         },
         {
             "id": 5,
-            "company_logo": "https://example.com/company5-logo.png",
+            "company_logo": "https://i.ibb.co/0trnqNL/facebook-logo.png",
             "job_title": "Product Manager",
-            "company_name": "Tech Innovators",
+            "company_name": "Facebook",
             "remote_or_onsite": "Remote",
             "location": "Singapore",
             "fulltime_or_parttime": "Full-time",
@@ -92,7 +92,7 @@
         },
         {
             "id": 6,
-            "company_logo": "https://example.com/company6-logo.png",
+            "company_logo": "https://i.ibb.co/c1qCvMb/Creative-Agency-logo.png",
             "job_title": "Graphic Designer",
             "company_name": "Creative Agency",
             "remote_or_onsite": "Onsite",
@@ -108,10 +108,9 @@
                 "email": "careers@creativeagency.com"
             }
         },
-
         {
             "id": 7,
-            "company_logo": "https://example.com/company7-logo.png",
+            "company_logo": "https://i.ibb.co/jM1vdCr/HR-Solutions-Inc-Logo.png",
             "job_title": "Human Resources Specialist",
             "company_name": "HR Solutions Inc.",
             "remote_or_onsite": "Remote",
@@ -127,10 +126,9 @@
                 "email": "jobs@hrsolutions.com.au"
             }
         },
-
         {
             "id": 8,
-            "company_logo": "https://example.com/company8-logo.png",
+            "company_logo": "https://i.ibb.co/jTBxsYn/Accountant-logo.png",
             "job_title": "Accountant",
             "company_name": "Financial Services Ltd.",
             "remote_or_onsite": "Onsite",

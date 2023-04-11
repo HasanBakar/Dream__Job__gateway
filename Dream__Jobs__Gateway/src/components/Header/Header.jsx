@@ -1,7 +1,8 @@
 import React from 'react';
+import { useState } from "react";
 import { NavLink } from "react-router-dom";
 const Header = () => {
-    
+    const [open, setOpen] = useState(false)
     return (
     <nav className="navbar bg-base-100 shadow-lg">
         <div className="navbar-start">
@@ -10,7 +11,7 @@ const Header = () => {
         <label className="btn btn-ghost md:hidden">
         <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M4 6h16M4 12h8m-8 6h16" /></svg>
         </label>
-        <div className={`"navbar-center lg:flex"`} >
+        <div className="navbar-center hidden lg:flex">
             <ul className="menu menu-vertical md:menu-horizontal px-2">
             <li> <NavLink to="/">Home</NavLink> </li>
             <li><NavLink to="/statistics">Statistics</NavLink></li>

@@ -1,15 +1,26 @@
 import React from 'react';
-import { useContext } from 'react';
+import { useContext,createContext } from 'react';
 import { CATEGORY } from '../../App';
-
 import JobCategoryList from './../JobCategoryList/JobCategoryList';
+import { useLoaderData } from 'react-router-dom';
+import FeatureJobsCart from './../FeatureJobsCart/FeatureJobsCart';
+
 
 
 const Home = () => {    
+    /**
+     featured job data start loading
+     */
+    const data = useLoaderData()
+    const feaJobs = data.featuredJobs
+    // console.log(feaJobs)
 
+    /**
+     featured job data End loading
+     */
     const jobs = useContext(CATEGORY)
     
-
+    
     return (
         <>
         <div className="hero min-h-screen bg-base-200">
@@ -38,7 +49,20 @@ const Home = () => {
                 ></JobCategoryList> )
             }
         </div>
-        
+        {/* Featured jobs section started */}
+        <div className="my-7" >
+            <h1 className="text-center text-5xl font-extrabold" >Featured Jobs</h1>
+            <p className="text-center py-1" >Explore thousands of job opportunities with all the information you need. Its your future.</p>
+        </div>
+        <div className="grid grid-cols-2 gap-8 my-8" >
+            {
+             feaJobs.map(feajob =><FeatureJobsCart
+             key={feajob.id}
+             feajob = {feajob}
+             ></FeatureJobsCart> )   
+            }
+        </div>
+        {/* Featured jobs section ended */}
         </>
     );
 };
