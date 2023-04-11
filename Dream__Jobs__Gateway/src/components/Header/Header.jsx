@@ -1,8 +1,7 @@
 import React from 'react';
-import { useState } from "react";
 import { NavLink } from "react-router-dom";
 const Header = () => {
-    const [open, setOpen] = useState(false)
+    
     return (
     <nav className="navbar bg-base-100 shadow-lg">
         <div className="navbar-start">

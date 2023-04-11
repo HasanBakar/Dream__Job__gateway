@@ -2,8 +2,9 @@ import React from 'react';
 import { NavLink } from 'react-router-dom';
 
 
+
 const FeatureJobsCart = ({feajob}) => {
-    // console.log(feajob)
+   
     const {company_logo,id,location,remote_or_onsite,salary,fulltime_or_parttime,company_name,job_title} = feajob;
     return (
         <div className="border shadow-xl p-8" >

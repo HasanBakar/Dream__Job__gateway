@@ -1,5 +1,5 @@
 import React from 'react';
-import { useContext,createContext } from 'react';
+import { useContext} from 'react';
 import { CATEGORY } from '../../App';
 import { useLoaderData } from "react-router-dom";
 import JobCategoryList from './../JobCategoryList/JobCategoryList';

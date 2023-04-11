@@ -52,24 +52,26 @@ const Statistics = () => {
 // d.assignment_name
     
     return (
-       <div className="pie__chart__color" >
-        <h1>My Assignment Marks Average in a pie chart</h1>
-        <PieChart width={400} height= {400}>
+       <div className="pie__chart__color text-center" >
+        <h1>My all Assignment Marks in a pie chart</h1>
+        <div className="flex justify-center items-center" >
+            <PieChart width={400} height= {400}>
             <Pie
             dataKey="assignment_mark"
            
-            data={data}
-            isAnimationActive={true}
-            startAngle={360}
-            endAngle={0}
-            cx="50%"
-            cy="50%"
-            outerRadius={90}
-            fill="#22d3ee"
-            label
-            ></Pie>
-            <Tooltip></Tooltip>
-        </PieChart>
+                data={data}
+                isAnimationActive={true}
+                startAngle={360}
+                endAngle={0}
+                cx="50%"
+                cy="50%"
+                outerRadius={90}
+                fill="#22d3ee"
+                label
+                ></Pie>
+                <Tooltip></Tooltip>
+            </PieChart>
+        </div>
        </div>
     );
 };

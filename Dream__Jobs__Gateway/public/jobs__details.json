@@ -9,8 +9,8 @@
             "location": "United States",
             "fulltime_or_parttime": "Full-time",
             "salary": "$80k - $100k",
-            "job_description": "ABC Tech is looking for a skilled Software Engineer to join our team...",
-            "job_responsibility": "Design, develop, and test software applications...",
+            "job_description": "Google big Tech is looking for a skilled Software Engineer to join our team. In this role, you will be responsible for designing, developing, and testing software applications. You will work closely with cross-functional teams to develop scalable and efficient database solutions.",
+            "job_responsibility": "Design, develop, and test software applications using database technologies. Collaborate with cross-functional teams to gather requirements and develop technical solutions. Optimize database performance and troubleshoot issues as needed. Provide technical support and guidance to team members and stakeholders. Stay updated with the latest industry trends and best practices related to database management.",
             "educational_requirements": "Bachelor's degree in Computer Science or related field",
             "experiences": "3+ years of experience in software development",
             "contact_information": {
@@ -27,8 +27,8 @@
             "location": "New York, NY",
             "fulltime_or_parttime": "Full-time",
             "salary": "$90k - $120k",
-            "job_description": "XYZ Analytics is seeking a skilled Data Scientist to analyze data...",
-            "job_responsibility": "Develop machine learning models, analyze data trends...",
+            "job_description": "Tesla Analytics is seeking a skilled Data Scientist to analyze data and provide insights to drive data-informed decision-making. In this role, you will be responsible for designing and implementing statistical models, performing data analysis, and creating machine learning algorithms. You will collaborate with cross-functional teams to identify business opportunities, develop data-driven solutions, and communicate findings to stakeholders. The ideal candidate will have strong programming skills in Python, R, or other relevant languages, as well as expertise in statistical analysis, data visualization, and machine learning.",
+            "job_responsibility": "Design and implement statistical models to analyze large datasets and derive insights for business decision-making.  Perform data analysis and visualization to identify patterns, trends, and opportunities.  Develop machine learning algorithms and models to solve complex problems and optimize business processes. Collaborate with cross-functional teams, including data engineers, business analysts, and stakeholders, to identify business opportunities and develop data-driven solutions. Communicate findings, insights, and recommendations to stakeholders in a clear and concise manner. Stay up-to-date with the latest advancements in data science, machine learning, and statistical analysis techniques. Ensure data accuracy, integrity, and security throughout the entire data analysis process.",
             "educational_requirements": "Master's degree in Data Science or related field",
             "experiences": "5+ years of experience in data analysis and machine learning",
             "contact_information": {
@@ -45,8 +45,8 @@
             "location": "Canada",
             "fulltime_or_parttime": "Part-time",
             "salary": "$60k - $80k",
-            "job_description": "Design Co. is looking for a talented UX/UI Designer to create engaging...",
-            "job_responsibility": "Design user interfaces, conduct user research, create wireframes...",
+            "job_description": "Design Co. is looking for a talented UX/UI Designer to create engaging and intuitive user experiences for our digital products. In this role, you will be responsible for designing and implementing user interfaces, user flows, wire frames, prototypes, and visual designs for web and mobile applications. You will collaborate with cross-functional teams, including product managers, developers, and stakeholders, to gather requirements, conduct user research, and iterate on designs. The ideal candidate will have a strong portfolio demonstrating expertise in user-centered design principles, usability testing, and visual design skills.",
+            "job_responsibility": "Create user-centered designs for web and mobile applications, including user interfaces user flows wire frames prototypes and visual designs. Gather requirements from product managers, developers and stakeholders to understand user needs and business goals. Conduct user research, usability testing, and user feedback sessions to inform design decisions. Collaborate with cross-functional teams to iterate on designs based on feedback and user testing results. Create and maintain design documentation, including style guides, pattern libraries, and design specifications. Stay up-to-date with the latest design trends, technologies, and best practices in UX/UI design.  Advocate for user-centered design principles and ensure the best possible user experience for our digital products.",
             "educational_requirements": "Bachelor's degree in Design or related field",
             "experiences": "2+ years of experience in UX/UI design",
             "contact_information": {
@@ -63,8 +63,8 @@
             "location": "London, UK",
             "fulltime_or_parttime": "Full-time",
             "salary": "£50k - £70k",
-            "job_description": "Global Marketing Agency is seeking a results-driven Marketing Manager...",
-            "job_responsibility": "Develop marketing strategies, oversee marketing campaigns...",
+            "job_description": "Global Marketing Agency is seeking a results-driven Marketing Manager to lead and execute marketing strategies and campaigns for our clients. In this role, you will be responsible for developing and implementing marketing plans, managing marketing budgets, analyzing market trends, and measuring campaign performance. You will collaborate with cross-functional teams, including account managers, creative teams, and clients, to ensure the successful delivery of marketing initiatives. The ideal candidate will have a proven track record of driving marketing success, strong leadership skills, and a deep understanding of various marketing channels and tactics.",
+            "job_responsibility": "Develop and implement marketing plans and campaigns to achieve client goals and objectives. Conduct market research to identify customer needs, preferences, and trends. Create and manage marketing budgets, ensuring efficient allocation of resources and ROI.  Analyze campaign performance data and provide insights and recommendations for optimization. Collaborate with cross-functional teams, including account managers, creative teams, and clients, to ensure the successful delivery of marketing initiatives. Stay up-to-date with the latest marketing trends, technologies, and best practices. Develop and maintain strong relationships with clients, understanding their business goals and providing strategic marketing guidance. Monitor and report on marketing metrics, demonstrating the effectiveness of marketing initiatives. Drive marketing innovation and experimentation, identifying new opportunities for growth. Provide leadership and mentorship to junior marketing team members.",
             "educational_requirements": "Bachelor's degree in Marketing or related field",
             "experiences": "5+ years of experience in marketing management",
             "contact_information": {
