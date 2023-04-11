@@ -1,7 +1,7 @@
 import React from 'react';
 
 const DetailsDescription = ({singleJob}) => {
-    console.log(singleJob)
+    
     const {experiences,educational_requirements,job_responsibility,job_description} = singleJob;
     return (
         <div>

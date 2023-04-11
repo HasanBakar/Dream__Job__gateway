@@ -9,3 +9,14 @@
 .pie__chart__color {
     @apply text-5xl font-extrabold text-transparent bg-clip-text bg-gradient-to-br from-pink-400 to-red-600;
 }
+
+.Now_aplly_btn {
+    background: linear-gradient(90deg, #7E90FE 0%, #9873FF 100%);
+    border-radius: 7px;
+
+}
+
+.Now_aplly_btn:hover {
+    background: linear-gradient(90deg, #9873FF 100%, #7E90FE 20%);
+    border-radius: 7px;
+}

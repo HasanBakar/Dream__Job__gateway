@@ -19,7 +19,7 @@ const Header = () => {
             </ul>
         </div>
         <div className="navbar-end">
-            <button className="btn bg-blue-400" ><NavLink>Star Applying</NavLink></button>
+            <button className="btn Now_aplly_btn" ><NavLink>Star Applying</NavLink></button>
         </div>
     </nav>
     );
