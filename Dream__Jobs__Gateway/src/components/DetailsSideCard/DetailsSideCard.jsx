@@ -14,7 +14,7 @@ const DetailsSideCard = ({singleJob}) => {
                 <div className="py-1 mb-4" >
                     <div className="flex pt-2" > 
                     <img src="https://i.ibb.co/DWqpNg7/Frame.png" alt="" /> 
-                    <span className="text-lg font-semibold px-2" >Salary: </span> {salary} </div>
+                    <span className="text-lg font-semibold px-2" >Salary: </span> {salary} <span> {`(Per Month)`}</span></div>
                     <div className="flex pb-2" > 
                     <img src="https://i.ibb.co/cQgMNrX/Frame-1.png" alt="" /> 
                     <span className="text-lg font-semibold px-2" >Job title: </span> {job_title} </div>
